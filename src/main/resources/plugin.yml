@@ -1,0 +1,15 @@
+name: Smiley
+version: 1.0.0
+main: de.dercoder.smiley.SmileyPlugin
+author: DerCoder
+api-version: 1.15
+
+commands:
+  smiley:
+    description: Provides all interaction opportunities of the smiley system.
+    permission: smiley.command
+
+permissions:
+  smiley.*:
+    description: "Gives you access to all of the smiley system"
+    default: op
