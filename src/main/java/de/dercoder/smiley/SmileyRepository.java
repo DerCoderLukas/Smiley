@@ -46,9 +46,7 @@ public final class SmileyRepository {
     }
 
     private void registerSmileys(SmileyConfiguration smileyConfiguration) {
-        for(SmileyModel smileyModel : smileyConfiguration.getSmileys()) {
-            register(smileyModel.toSmiley());
-        }
+        smileyConfiguration.getSmileys().forEach(this::register);
     }
 
     public void saveAll() {
@@ -86,8 +84,18 @@ public final class SmileyRepository {
         smileys.add(smiley);
     }
 
+    public void register(SmileyModel smileyModel) {
+        Preconditions.checkNotNull(smileyModel);
+        smileys.add(smileyModel.toSmiley());
+    }
+
     public void unregister(Smiley smiley) {
         Preconditions.checkNotNull(smiley);
         smileys.remove(smiley);
+    }
+
+    public void unregister(SmileyModel smileyModel) {
+        Preconditions.checkNotNull(smileyModel);
+        smileys.remove(smileyModel.toSmiley());
     }
 }
