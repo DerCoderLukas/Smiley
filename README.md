@@ -4,9 +4,9 @@ Small smiley system that allows animated heads to be easily adjusted and carried
 
 # Requirements
 
-• Java 11
+• Java 14
 
-• Spigot 1.15.2
+• Spigot 1.16.1
 
 # Installation
 
