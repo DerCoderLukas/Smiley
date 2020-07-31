@@ -2,7 +2,7 @@ name: Smiley
 version: 1.0.0
 main: de.dercoder.smiley.SmileyPlugin
 author: DerCoder
-api-version: 1.15
+api-version: 1.16.1
 
 commands:
   smiley:
