@@ -28,7 +28,7 @@ repositories {
 dependencies {
   testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
   testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-  testImplementation 'org.mockito:mockito-junit-jupiter:3.6.0'
+  testImplementation 'org.mockito:mockito-junit-jupiter:3.10.0'
 
   compile 'com.google.inject:guice:4.2.3'
 
