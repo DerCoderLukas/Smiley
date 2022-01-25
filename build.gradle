@@ -30,7 +30,7 @@ dependencies {
   testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
   testImplementation 'org.mockito:mockito-junit-jupiter:4.2.0'
 
-  compile 'com.google.inject:guice:5.0.1'
+  compile 'com.google.inject:guice:5.1.0'
 
   compile 'com.fasterxml.jackson.core:jackson-databind:2.13.1'
   compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.1'
